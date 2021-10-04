@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "start": "node server.js",
