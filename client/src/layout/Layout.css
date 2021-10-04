@@ -1,0 +1,9 @@
+.layout-main-container {
+  width: 100vw;
+  min-height: 100vh;
+  max-height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
