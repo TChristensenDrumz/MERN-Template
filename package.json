@@ -1,0 +1,22 @@
+{
+  "name": "mern-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && node server.js",
+    "start:dev": "cd server && npm run start:dev",
+    "install": "cd server && npm install",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^4.0.3",
+    "if-env": "^1.0.4",
+    "sass": "^1.42.1"
+  }
+}
